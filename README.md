@@ -1,6 +1,6 @@
 # Drupal 9 Theming
 
-** Creando un tema custom para Drupal 9 con Drush **
+**Creando un tema custom para Drupal 9 con Drush**
 
 Seguir los siguientes pasos para levantar el proyecto de prueba:
 
@@ -18,14 +18,14 @@ Seguir los siguientes pasos para levantar el proyecto de prueba:
 
 * Con esto, solamente nos falta lanzar un comando que nos cree nuestro nuevo tema custom a partir de uno ya existente, que lo tomaremos de base. Esto se hace lanzando el comando `ddev drush gen theme`. Este comando lanzará un asistente que nos hará las siguientes preguntas:
 
-  * Título del tema --> `Drupal 9 Theming`
-  * Nombre máquina del tema --> `d9_theming`
-  * Tema base --> `starterkit_theme`
-  * Descripción --> `My new custom theme in Drupal 9`
-  * Package --> `Custom`
-  * Uso de SASS --> `No`
-  * Crear breakpoints --> `No`
-  * Crear formulario de configuración del tema --> `No`
+  * Título del tema &rarr; `Drupal 9 Theming`
+  * Nombre máquina del tema &rarr; `d9_theming`
+  * Tema base &rarr; `starterkit_theme`
+  * Descripción &rarr; `My new custom theme in Drupal 9`
+  * Package &rarr; `Custom`
+  * Uso de SASS &rarr; `No`
+  * Crear breakpoints &rarr; `No`
+  * Crear formulario de configuración del tema &rarr; `No`
 
 Y voilà, tenemos nuestro nuevo tema custom disponible en `web/themes/d9_theming`
 
